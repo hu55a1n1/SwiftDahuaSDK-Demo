@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5ADB7EAB1CEF325A2BDE42D78A94CD2B2C87DF7B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "28AAF85CB972B3E720F4DBB7426320D62E1B2CD8" : 9223372036854775807,
+    "5ADB7EAB1CEF325A2BDE42D78A94CD2B2C87DF7B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3C9536C6-CC24-4B7E-A7A4-E895E4EF66A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "28AAF85CB972B3E720F4DBB7426320D62E1B2CD8" : "SwiftDahuaSDK\/",
+    "5ADB7EAB1CEF325A2BDE42D78A94CD2B2C87DF7B" : "SwiftDahuaSDKDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftDahuaSDKDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftDahuaSDKDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sufi-Al-Hussaini\/Swift-DahuaSDK",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28AAF85CB972B3E720F4DBB7426320D62E1B2CD8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/sufialhussaini\/swiftdahuasdkdemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5ADB7EAB1CEF325A2BDE42D78A94CD2B2C87DF7B"
+    }
+  ]
+}

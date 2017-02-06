@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B3DF141E3E3218003D85A2 /* VideoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3DF131E3E3218003D85A2 /* VideoWindow.swift */; };
+		63B3DF151E3E331E003D85A2 /* SwiftDahuaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DD22C71E3A7B75005EB82C /* SwiftDahuaSDK.framework */; };
+		63B3DF161E3E331E003D85A2 /* SwiftDahuaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63DD22C71E3A7B75005EB82C /* SwiftDahuaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63DD22771E3A78CA005EB82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DD22761E3A78CA005EB82C /* AppDelegate.swift */; };
+		63DD22791E3A78CA005EB82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DD22781E3A78CA005EB82C /* ViewController.swift */; };
+		63DD227C1E3A78CA005EB82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DD227A1E3A78CA005EB82C /* Main.storyboard */; };
+		63DD227E1E3A78CA005EB82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DD227D1E3A78CA005EB82C /* Assets.xcassets */; };
+		63DD22811E3A78CA005EB82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DD227F1E3A78CA005EB82C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63B3DF171E3E331E003D85A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63B3DF161E3E331E003D85A2 /* SwiftDahuaSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63B3DF131E3E3218003D85A2 /* VideoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoWindow.swift; sourceTree = "<group>"; };
+		63DD22731E3A78CA005EB82C /* SwiftDahuaSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDahuaSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DD22761E3A78CA005EB82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63DD22781E3A78CA005EB82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63DD227B1E3A78CA005EB82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DD227D1E3A78CA005EB82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63DD22801E3A78CA005EB82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63DD22821E3A78CA005EB82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DD22C71E3A7B75005EB82C /* SwiftDahuaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftDahuaSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DD22701E3A78CA005EB82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3DF151E3E331E003D85A2 /* SwiftDahuaSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DD226A1E3A78CA005EB82C = {
+			isa = PBXGroup;
+			children = (
+				63DD22751E3A78CA005EB82C /* SwiftDahuaSDKDemo */,
+				63DD22741E3A78CA005EB82C /* Products */,
+				63DD22C71E3A7B75005EB82C /* SwiftDahuaSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		63DD22741E3A78CA005EB82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DD22731E3A78CA005EB82C /* SwiftDahuaSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DD22751E3A78CA005EB82C /* SwiftDahuaSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63DD22761E3A78CA005EB82C /* AppDelegate.swift */,
+				63DD22781E3A78CA005EB82C /* ViewController.swift */,
+				63DD227A1E3A78CA005EB82C /* Main.storyboard */,
+				63DD227D1E3A78CA005EB82C /* Assets.xcassets */,
+				63DD227F1E3A78CA005EB82C /* LaunchScreen.storyboard */,
+				63DD22821E3A78CA005EB82C /* Info.plist */,
+				63B3DF131E3E3218003D85A2 /* VideoWindow.swift */,
+			);
+			path = SwiftDahuaSDKDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DD22721E3A78CA005EB82C /* SwiftDahuaSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DD22851E3A78CA005EB82C /* Build configuration list for PBXNativeTarget "SwiftDahuaSDKDemo" */;
+			buildPhases = (
+				63DD226F1E3A78CA005EB82C /* Sources */,
+				63DD22701E3A78CA005EB82C /* Frameworks */,
+				63DD22711E3A78CA005EB82C /* Resources */,
+				63B3DF171E3E331E003D85A2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDahuaSDKDemo;
+			productName = SwiftDahuaSDKDemo;
+			productReference = 63DD22731E3A78CA005EB82C /* SwiftDahuaSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DD226B1E3A78CA005EB82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shoaib Ahmed";
+				TargetAttributes = {
+					63DD22721E3A78CA005EB82C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R93M99E72L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63DD226E1E3A78CA005EB82C /* Build configuration list for PBXProject "SwiftDahuaSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DD226A1E3A78CA005EB82C;
+			productRefGroup = 63DD22741E3A78CA005EB82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DD22721E3A78CA005EB82C /* SwiftDahuaSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DD22711E3A78CA005EB82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DD22811E3A78CA005EB82C /* LaunchScreen.storyboard in Resources */,
+				63DD227E1E3A78CA005EB82C /* Assets.xcassets in Resources */,
+				63DD227C1E3A78CA005EB82C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DD226F1E3A78CA005EB82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3DF141E3E3218003D85A2 /* VideoWindow.swift in Sources */,
+				63DD22791E3A78CA005EB82C /* ViewController.swift in Sources */,
+				63DD22771E3A78CA005EB82C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63DD227A1E3A78CA005EB82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DD227B1E3A78CA005EB82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63DD227F1E3A78CA005EB82C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DD22801E3A78CA005EB82C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DD22831E3A78CA005EB82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Debug;
+		};
+		63DD22841E3A78CA005EB82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+		63DD22861E3A78CA005EB82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R93M99E72L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SwiftDahuaSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoaib-ahmed.SwiftDahuaSDKDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7s arm64";
+			};
+			name = Debug;
+		};
+		63DD22871E3A78CA005EB82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R93M99E72L;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SwiftDahuaSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shoaib-ahmed.SwiftDahuaSDKDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DD226E1E3A78CA005EB82C /* Build configuration list for PBXProject "SwiftDahuaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DD22831E3A78CA005EB82C /* Debug */,
+				63DD22841E3A78CA005EB82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DD22851E3A78CA005EB82C /* Build configuration list for PBXNativeTarget "SwiftDahuaSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DD22861E3A78CA005EB82C /* Debug */,
+				63DD22871E3A78CA005EB82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DD226B1E3A78CA005EB82C /* Project object */;
+}
